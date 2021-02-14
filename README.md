@@ -13,9 +13,9 @@ Watch [explanation video](https://youtu.be/_KX8ORUA_98)
 
 ## Screenshots Of The Software
 
-<img src="https://i.ibb.co/8ckgBwc/imghide-gui-1.png">
-<img src="https://i.ibb.co/PC4mmH8/imghide-gui-2.png">
-<img src="https://i.ibb.co/Bj5Hb7c/imghide-gui-3.png">
+[<img src="https://i.ibb.co/8ckgBwc/imghide-gui-1.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
+[<img src="https://i.ibb.co/PC4mmH8/imghide-gui-2.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
+[<img src="https://i.ibb.co/Bj5Hb7c/imghide-gui-3.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
 
 ---
 
