@@ -1,13 +1,21 @@
 ﻿# IMGHIDE
 [IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](https://github.com/teja156/imghide/blob/main/imghide.py) By [@teja156](github.com/teja156)
 
-![enter image description here](https://i.ibb.co/MZR48SH/imgide-sc.png)
+![enter image description here](https://raw.githubusercontent.com/LinuxGuyOfficial/IMGHide-GUI/main/assets/header2.png)
 
 Hide secret texts/messages inside an image. You can optionally encrypt your texts with a password using AES-256 before encoding into the image.
 
 Original Script Was Inspired from this [Medium post](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
 
 Watch [explanation video](https://youtu.be/_KX8ORUA_98)
+
+---
+
+## Screenshots Of The Software
+
+<img src="https://i.ibb.co/8ckgBwc/imghide-gui-1.png">
+<img src="https://i.ibb.co/PC4mmH8/imghide-gui-2.png">
+<img src="https://i.ibb.co/Bj5Hb7c/imghide-gui-3.png">
 
 ---
 
