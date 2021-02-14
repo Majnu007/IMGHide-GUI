@@ -1,22 +1,41 @@
 ﻿# IMGHIDE
+[IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](imghide.py) By @teja156
 
 ![enter image description here](https://i.ibb.co/MZR48SH/imgide-sc.png)
 
 Hide secret texts/messages inside an image. You can optionally encrypt your texts with a password using AES-256 before encoding into the image.
 
-Inspired from this [Medium post](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
+Original Script Was Inspired from this [Medium post](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
 
 Watch [explanation video](https://youtu.be/_KX8ORUA_98)
 
 ## Installation
 You can install the all requirements from **requirements.txt** by using pip.
+```bash
+pip install -r requirements.txt
+```
 
-    pip install -r requirements.txt
+## Usage [Windows]
+**Make Sure You Have Installed Python 3.5+ Version, To Check Your Python Version on Your Command Prompt Give The Command ```python --version```**
+For CLI ( Command Line Interface ):
+```bash
+python imghide.py
+```
+For GUI ( Graphical User Interface:
+```bash
+python imghide-gui.py
+```
 
-
-## Usage
-
-    python imghide.py
+## Usage [Linux]
+**Make Sure You Have Installed Python 3.5+ Version, To Check Your Python Version on Your Command Prompt Give The Command ```python --version```**
+For CLI ( Command Line Interface ):
+```bash
+python3 imghide.py
+```
+For GUI ( Graphical User Interface:
+```bash
+python3 imghide-gui.py
+```
 
 **Encode**
 
