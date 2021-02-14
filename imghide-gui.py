@@ -13,7 +13,7 @@ from sys import exit
 from random import choice
 
 window = tk.Tk()
-window.title('IMGHide GUI v1.0')
+window.title('IMGHide GUI v1.1')
 window.geometry('550x370')
 window.configure(bg='deepskyblue4')
 window.minsize(550, 370)
