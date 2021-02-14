@@ -1,0 +1,6 @@
+Version 1.0 [ 12-Feb-2021 ]:
+	Nothing Changed
+
+Version 1.1 [ 14-Feb-2021 ]:
+	+ Simple UI Changes
+	- Reduced Dependencies

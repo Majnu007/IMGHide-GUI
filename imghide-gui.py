@@ -3,14 +3,12 @@ from tkinter import messagebox
 import PIL.Image
 import PIL.ImageTk
 from PIL import Image
-import os.path
 from os import path
 import math
 from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 from Crypto import Random
 import base64
-import os
 from sys import exit
 from random import choice
 
