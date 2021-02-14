@@ -1,5 +1,5 @@
 ﻿# IMGHIDE
-[IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](imghide.py) By @teja156
+[IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](https://github.com/teja156/imghide/blob/main/imghide.py) By [@teja156](github.com/teja156)
 
 ![enter image description here](https://i.ibb.co/MZR48SH/imgide-sc.png)
 
