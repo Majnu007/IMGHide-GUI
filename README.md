@@ -9,6 +9,8 @@ Original Script Was Inspired from this [Medium post](https://medium.com/better-p
 
 Watch [explanation video](https://youtu.be/_KX8ORUA_98)
 
+---
+
 ## Installation
 You can install the all requirements from **requirements.txt** by using pip.
 ```bash
@@ -17,6 +19,7 @@ pip install -r requirements.txt
 
 ## Usage [Windows]
 **Make Sure You Have Installed Python 3.5+ Version, To Check Your Python Version on Your Command Prompt Give The Command ```python --version```**
+
 For CLI ( Command Line Interface ):
 ```bash
 python imghide.py
@@ -28,6 +31,7 @@ python imghide-gui.py
 
 ## Usage [Linux]
 **Make Sure You Have Installed Python 3.5+ Version, To Check Your Python Version on Your Command Prompt Give The Command ```python --version```**
+
 For CLI ( Command Line Interface ):
 ```bash
 python3 imghide.py
@@ -37,26 +41,12 @@ For GUI ( Graphical User Interface:
 python3 imghide-gui.py
 ```
 
-**Encode**
+---
 
- - Choose *Encode* in the options menu
- ![enter image description here](https://i.ibb.co/6rG8HBt/imghide-sc2.png)
- 
- - Enter the image path (with extension)
- ![enter image description here](https://i.ibb.co/RCJCGCh/imghide-sc3.png)
- - Enter the message to be hidden
- ![enter image description here](https://i.ibb.co/ngXDwHk/imghide-sc4.png)
- - Choose a password to encrypt with AES-256 (optional)
- ![enter image description here](https://i.ibb.co/87qCNZg/imghide-sc5.png)
+## Credits:
+* CLI Version/Original Version By @teja156 ( YouTube - [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1))
+* GUI Version/Original Version By @LinuxGuyOfficial ( YouTube - [LinuxGuy](https://www.youtube.com/channel/UCVmQpp6Ah3s6JnbBvA5Nh7A?sub_confirmation=1))
 
-The image is encoded and saved as a ***PNG*** file.
+---
 
-**Decode**
-
- - Choose *Decode* from the menu
-![enter image description here](https://i.ibb.co/nkvzjCJ/imghide-sc6.png)
-
- - Enter the path of the encoded image (with extension) and type in the password to decrypt (leave empty if no password was used)
-![enter image description here](https://i.ibb.co/HTP4b28/imghide-sc7.png)
-
-The decoded text will be displayed on the terminal.
+## Thanks For Visiting
