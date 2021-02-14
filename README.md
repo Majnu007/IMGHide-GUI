@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/LinuxGuyOfficial/IMGHide-GUI/main/assets/header2.png>](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
+[<img src="https://raw.githubusercontent.com/LinuxGuyOfficial/IMGHide-GUI/main/assets/header2.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
 
 
 [IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](https://github.com/teja156/imghide/blob/main/imghide.py) By [@teja156](https://github.com/teja156)
