@@ -1,13 +1,7 @@
 [<img src="https://raw.githubusercontent.com/LinuxGuyOfficial/IMGHide-GUI/main/assets/header2.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
 
 
-[IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](https://github.com/teja156/imghide/blob/main/imghide.py) By [@teja156](https://github.com/teja156)
-
-Hide secret texts/messages inside an image. You can optionally encrypt your texts with a password using AES-256 before encoding into the image.
-
-Original Script Was Inspired from this [Medium post](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
-
-Watch [explanation video](https://youtu.be/_KX8ORUA_98)
+[IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](https://github.com/teja156/imghide/blob/main/imghide.py) Which You Can Use To Hide secret texts/messages inside an image. You can optionally encrypt your texts with a password using AES-256 before encoding into the image.
 
 ---
 
@@ -54,6 +48,8 @@ python3 imghide-gui.py
 ## Credits:
 * CLI Version/Original Version By [@teja156](https://github.com/teja156) ( YouTube - [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1))
 * GUI Version/Original Version By [@LinuxGuyOfficial](https://github.com/LinuxGuyOfficial) ( YouTube - [LinuxGuy](https://www.youtube.com/channel/UCVmQpp6Ah3s6JnbBvA5Nh7A?sub_confirmation=1))
+* Original Script Was Inspired from this [Medium post](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
+* Watch [explanation video](https://youtu.be/_KX8ORUA_98)
 
 ---
 
