@@ -44,8 +44,8 @@ python3 imghide-gui.py
 ---
 
 ## Credits:
-* CLI Version/Original Version By @teja156 ( YouTube - [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1))
-* GUI Version/Original Version By @LinuxGuyOfficial ( YouTube - [LinuxGuy](https://www.youtube.com/channel/UCVmQpp6Ah3s6JnbBvA5Nh7A?sub_confirmation=1))
+* CLI Version/Original Version By [@teja156](github.com/teja156) ( YouTube - [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1))
+* GUI Version/Original Version By [@LinuxGuyOfficial](github.com/LinuxGuyOfficial) ( YouTube - [LinuxGuy](https://www.youtube.com/channel/UCVmQpp6Ah3s6JnbBvA5Nh7A?sub_confirmation=1))
 
 ---
 
