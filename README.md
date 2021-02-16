@@ -6,6 +6,7 @@
 ---
 
 ## Screenshots Of The Software
+Note Screenshots Are Old, they can differ from the Current version
 
 [<img src="https://i.ibb.co/8ckgBwc/imghide-gui-1.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
 [<img src="https://i.ibb.co/PC4mmH8/imghide-gui-2.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
