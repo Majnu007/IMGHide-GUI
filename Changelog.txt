@@ -4,3 +4,11 @@ Version 1.0 [ 12-Feb-2021 ]:
 Version 1.1 [ 14-Feb-2021 ]:
 	+ Simple UI Changes
 	- Reduced Dependencies
+
+
+Version 1.2 [ 16-Feb-2021 ]:
+	+ Simple UI Changes
+	+ Text in Password Entry Field is Hidden with '*'
+	+ Added A Functioning 'Info Bar' at Bottom Left
+	+ Fixed Some Minor Bugs
+	- Reduced Dependencies

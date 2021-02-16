@@ -13,11 +13,11 @@ from sys import exit
 from random import choice
 
 window = tk.Tk()
-window.title('IMGHide GUI v1.1')
-window.geometry('550x370')
+window.title('IMGHide GUI v1.2')
+window.geometry('630x370')
 window.configure(bg='deepskyblue4')
 window.minsize(550, 370)
-window.maxsize(550, 370)
+window.maxsize(630, 370)
 
 im1 = PIL.Image.open(choice(["assets/header.png", "assets/header2.png"]))
 header = PIL.ImageTk.PhotoImage(im1)
@@ -57,9 +57,11 @@ def convertToRGB(img):
         background = Image.new("RGB", rgba_image.size, (255, 255, 255))
         background.paste(rgba_image, mask = rgba_image.split()[3])
         info_label.config(text='$ Converted image to RGB')
+        window.update()
         return background
     except Exception as e:
         info_label.config(text="$ Couldn't convert image to RGB")
+        window.update()
         messagebox.showerror("Error", f"Couldn't convert image to RGB\n{e}")
         exit(1)
 
@@ -69,6 +71,7 @@ def getPixelCount(img):
 
 def encodeImage(image,message,filename):
     info_label.config(text="$ Encoding The Image")
+    window.update()
     try:
         width, height = image.size
         pix = image.getdata()
@@ -80,9 +83,12 @@ def encodeImage(image,message,filename):
         y=0
 
         info_label.config(text="$ Encoding The Image.")
+        window.update()
 
         for ch in message:
             info_label.config(text="$ Encoding The Image..")
+            window.update()
+
             binary_value = format(ord(ch), '08b')
             # For each character, get 3 pixels at a time
             p1 = pix[current_pixel]
@@ -129,10 +135,12 @@ def encodeImage(image,message,filename):
                     x += 1
 
             info_label.config(text="$ Encoding The Image...")
+            window.update()
 
-        encoded_filename = filename.split('.')[0] + "-enc.png"
+        encoded_filename = filename.split('.')[0] + "-encrypted.png"
         image.save(encoded_filename)
         info_label.config(text="$ Image Saved Successfully")
+        window.update()
         messagebox.showinfo("Success", f"Image encoded and saved as {encoded_filename}\nOriginal filename {filename}")
     except Exception as e:
         messagebox.showerror("Error", f"An error occured\n{e}")
@@ -140,14 +148,17 @@ def encodeImage(image,message,filename):
 
 def decodeImage(image):
     info_label.config(text="$ Decoding The Image")
+    window.update()
     try:
         pix = image.getdata()
         current_pixel = 0
         decoded=""
 
         info_label.config(text="$ Decoding The Image.")
+        window.update()
         while True:
             info_label.config(text="$ Decoding The Image..")
+            window.update()
             # Get 3 pixels each time
             binary_value=""
             p1 = pix[current_pixel]
@@ -162,6 +173,7 @@ def decodeImage(image):
                     binary_value+="1"
 
             info_label.config(text="$ Decoding The Image...")
+            window.update()
 
             #Convert binary value to ascii and add to string
             binary_value.strip()
@@ -169,12 +181,14 @@ def decodeImage(image):
             decoded+=chr(ascii_value)
             current_pixel+=3
             info_label.config(text="$ Decoding The Image.")
+            window.update()
 
             if three_pixels[-1]%2!=0:
                 # stop reading
                 break
 
         info_label.config(text="$ Image Decoded")
+        window.update()
         return decoded
     except Exception as e:
         messagebox.showerror("Error", f"An error occured\n{e}")
@@ -208,6 +222,7 @@ def init_encode():
 
     image = Image.open(img)
     info_label.config(text=f"Image Mode: {image.mode}")
+    window.update()
     if image.mode!='RGB':
         image = convertToRGB(image)
     newimg = image.copy()
@@ -273,12 +288,11 @@ def disable_checkbox():
 
         label3 = tk.Label(window,bg='deepskyblue4',fg='white', text='Password', font=('calibre',9,'normal'))
         label3.place(relx = 0.33, rely = 0.63, anchor = 'center')
-        password_entry = tk.Entry(window,textvariable = password_var, font=('calibre',10,'normal'))
+        password_entry = tk.Entry(window,textvariable = password_var, show='*', font=('calibre',10,'normal'))
         password_entry.place(relx = 0.4, rely = 0.63, anchor = 'w')
         label4 = tk.Label(window,bg='deepskyblue4',fg='white',text='(Leave Empty For No Password)', font=('calibre',9,'normal'))
         label4.place(relx = 0.5, rely = 0.7, anchor = 'center')
 
-#        encode_button = tk.Button(window,bg='lawngreen',text='Encode!',borderwidth = 4,relief="flat",command=init_encode)
         encode_button = tk.Button(window,image=enc_button,borderwidth = 2,relief="flat",command=init_encode)
         encode_button.place(relx = 0.4, rely = 0.825, anchor = 'w')
 
@@ -295,7 +309,7 @@ def disable_checkbox():
         label2.place(relx = 0.33, rely = 0.55, anchor = 'center')
 
         label3 = tk.Label(window, text='', font=('calibre',9,'normal'))
-        password_entry = tk.Entry(window,textvariable=password_var, font=('calibre',10,'normal'))
+        password_entry = tk.Entry(window,textvariable=password_var, show='*', font=('calibre',10,'normal'))
         password_entry.place(relx = 0.4, rely = 0.55, anchor = 'w')
 
         label4 = tk.Label(window,bg='deepskyblue4',fg='white', text='(Leave Empty For No Password)', font=('calibre',9,'normal'))
@@ -303,7 +317,6 @@ def disable_checkbox():
 
         msg_entry = tk.Entry(window,textvariable = msg_var, font=('calibre',10,'normal'))
 
-#        encode_button = tk.Button(window,bg='skyblue',command=init_decode,borderwidth = 4,relief="flat",text='Decode!')
         encode_button = tk.Button(window,image=dec_button,command=init_decode,borderwidth = 2,relief="flat")
         encode_button.place(relx = 0.4, rely = 0.8, anchor = 'w')
 
@@ -311,8 +324,11 @@ def disable_checkbox():
         info_label.config(text='$ Nothing Selected')
         c1.config(state='normal')
         c2.config(state='normal')
+        path_entry.delete('0',tk.END)
         path_entry.destroy()
+        msg_entry.delete('0',tk.END)
         msg_entry.destroy()
+        password_entry.delete('0',tk.END)
         password_entry.destroy()
         encode_button.destroy()
         label1.destroy()
@@ -328,7 +344,6 @@ path_var = tk.StringVar()
 password_var = tk.StringVar()
 msg_var = tk.StringVar()
 
-#title = tk.Label(window, text='IMGHide GUI v1.0', font=('TkHeadingFont',35,'bold','underline'))
 title = tk.Label(window, image=header, bg='deepskyblue4')
 title.place(relx = 0.5, rely = 0.12, anchor = 'center')
 
@@ -341,7 +356,7 @@ c2.place(relx = 0.5, rely = 0.35, anchor = 'center')
 info_label = tk.Label(window, bg='black', fg='lawngreen',width=30, text='$ Everything Initialised', font=('calibre',9,'normal'))
 info_label.place(relx = 0.0, rely = 1.0, anchor ='sw')
 
-author_label = tk.Label(window, bg='black', fg='deep sky blue', width=30, text='GUI by @LinuxGuyOfficial ( GitHub )   \nIMGHide by @TechRaj156 ( YouTube )', font=('TkHeadingFont',9,'normal'))
+author_label = tk.Label(window, bg='black', fg='deep sky blue', width=30, text='GUI by @LinuxGuyy ( GitHub )   \nIMGHide by @TechRaj156 ( YouTube )', font=('TkHeadingFont',9,'normal'))
 author_label.place(relx = 1, rely = 1.0, anchor ='se')
 
 window.mainloop()
