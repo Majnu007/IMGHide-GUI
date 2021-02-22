@@ -13,7 +13,7 @@ from sys import exit
 from random import choice
 
 window = tk.Tk()
-window.title('IMGHide GUI v1.2')
+window.title('IMGHide GUI v1.3')
 window.geometry('630x370')
 window.configure(bg='deepskyblue4')
 window.minsize(550, 370)
@@ -356,7 +356,7 @@ c2.place(relx = 0.5, rely = 0.35, anchor = 'center')
 info_label = tk.Label(window, bg='black', fg='lawngreen',width=30, text='$ Everything Initialised', font=('calibre',9,'normal'))
 info_label.place(relx = 0.0, rely = 1.0, anchor ='sw')
 
-author_label = tk.Label(window, bg='black', fg='deep sky blue', width=30, text='GUI by @LinuxGuyy ( GitHub )   \nIMGHide by @TechRaj156 ( YouTube )', font=('TkHeadingFont',9,'normal'))
+author_label = tk.Label(window, bg='black', fg='deep sky blue', width=30, text='GUI by @Majnu007 ( GitHub )   \nIMGHide by @TechRaj156 ( YouTube )', font=('TkHeadingFont',9,'normal'))
 author_label.place(relx = 1, rely = 1.0, anchor ='se')
 
 window.mainloop()
