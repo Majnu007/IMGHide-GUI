@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/LinuxGuyOfficial/IMGHide-GUI/main/assets/header2.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
+[<img src="https://raw.githubusercontent.com/Majnu007/IMGHide-GUI/main/assets/header2.png">](https://github.com/Majnu007/IMGHide-GUI)
 
 [<img src="https://img.shields.io/badge/LICENSE-Custom-blue?style=for-the-badge">](LICENSE) [<img src="https://img.shields.io/badge/Latest%20Version-1.2-orange?style=for-the-badge">](imghide-gui.py) [<img src="https://img.shields.io/github/repo-size/LinuxGuyy/IMGHide-GUI?label=Repository%20Size&style=for-the-badge">](https://github.com/LinuxGuyy/IMGHide-GUI)
 
@@ -9,9 +9,9 @@
 ## Screenshots Of The Software
 Note Screenshots Are Old, they can differ from the Current version
 
-[<img src="https://i.ibb.co/8ckgBwc/imghide-gui-1.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
-[<img src="https://i.ibb.co/PC4mmH8/imghide-gui-2.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
-[<img src="https://i.ibb.co/Bj5Hb7c/imghide-gui-3.png">](https://github.com/LinuxGuyOfficial/IMGHide-GUI)
+[<img src="https://i.ibb.co/8ckgBwc/imghide-gui-1.png">](https://github.com/Majnu007/IMGHide-GUI)
+[<img src="https://i.ibb.co/PC4mmH8/imghide-gui-2.png">](https://github.com/Majnu007/IMGHide-GUI)
+[<img src="https://i.ibb.co/Bj5Hb7c/imghide-gui-3.png">](https://github.com/Majnu007/IMGHide-GUI)
 
 ---
 
@@ -47,15 +47,15 @@ python3 imghide-gui.py
 
 ---
 
-[<img src="https://img.shields.io/badge/YouTube-LinuxGuy-%20%23E62117?style=for-the-badge">](https://www.youtube.com/channel/UCVmQpp6Ah3s6JnbBvA5Nh7A?sub_confirmation=1) [<img src="https://img.shields.io/badge/GitHub-LinuxGuyy-333?style=for-the-badge">](https://github.com/LinuxGuyy)
+[<img src="https://img.shields.io/github/followers/Majnu007?label=GitHub&logo=github&style=for-the-badge">](https://github.com/MajnuBhai007) &nbsp; [<img src="https://img.shields.io/badge/Queries%20%3F-Telegram-0088cc?style=for-the-badge&logo=telegram">](https://t.me/MajnuBhai007) <br />
 
-[<img src="https://img.shields.io/badge/TWITTER-LinuxGuyy-00a9ed?style=for-the-badge">](https://www.twitter.com/LinuxGuyy) [<img src="https://img.shields.io/badge/Telegram-LinuxGuyy-0088cc?style=for-the-badge">](https://t.me/LinuxGuyy)
+[<img src="https://img.shields.io/badge/Queries%20%3F-Email-00a4e4?style=for-the-badge&logo=protonmail">](mailto:majnu007@protonmail.com) &nbsp; [<img src="https://img.shields.io/badge/Visit-My%20Website-0dd3ff?style=for-the-badge">](https://Majnu007.github.io)
 
 ---
 
 ## Credits:
-* CLI Version/Original Version By [@teja156](https://github.com/teja156) ( YouTube - [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1))
-* GUI Version/Original Version By [@LinuxGuyOfficial](https://github.com/LinuxGuyy) ( YouTube - [LinuxGuy](https://www.youtube.com/channel/UCVmQpp6Ah3s6JnbBvA5Nh7A?sub_confirmation=1))
+* CLI Original Version By [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1))
+* GUI Versionn By [@Majnu007](https://github.com/Majnu007) 
 * Original Script Was Inspired from this [Medium post](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
 * Watch [explanation video](https://youtu.be/_KX8ORUA_98)
 
