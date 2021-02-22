@@ -1,6 +1,6 @@
 [<img src="https://raw.githubusercontent.com/Majnu007/IMGHide-GUI/main/assets/header2.png">](https://github.com/Majnu007/IMGHide-GUI)
 
-[<img src="https://img.shields.io/badge/LICENSE-Custom-blue?style=for-the-badge">](LICENSE) [<img src="https://img.shields.io/badge/Latest%20Version-1.2-orange?style=for-the-badge">](imghide-gui.py) [<img src="https://img.shields.io/github/repo-size/LinuxGuyy/IMGHide-GUI?label=Repository%20Size&style=for-the-badge">](https://github.com/LinuxGuyy/IMGHide-GUI)
+[<img src="https://img.shields.io/badge/LICENSE-Custom-blue?style=for-the-badge">](LICENSE) [<img src="https://img.shields.io/badge/Latest%20Version-1.3-orange?style=for-the-badge">](imghide-gui.py) [<img src="https://img.shields.io/github/repo-size/LinuxGuyy/IMGHide-GUI?label=Repository%20Size&style=for-the-badge">](https://github.com/Majnu007/IMGHide-GUI)
 
 [IMGHide-GUI.py](imghide-gui.py) A FrontEnd For [IMGHide.py](https://github.com/teja156/imghide/blob/main/imghide.py) Which You Can Use To Hide secret texts/messages inside an image. You can optionally encrypt your texts with a password using AES-256 before encoding into the image.
 
