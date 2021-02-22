@@ -54,7 +54,7 @@ python3 imghide-gui.py
 ---
 
 ## Credits:
-* CLI Original Version By [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1))
+* CLI Original Version By [TechRaj156](https://www.youtube.com/c/TechRaj156?sub_confirmation=1)
 * GUI Versionn By [@Majnu007](https://github.com/Majnu007) 
 * Original Script Was Inspired from this [Medium post](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
 * Watch [explanation video](https://youtu.be/_KX8ORUA_98)
